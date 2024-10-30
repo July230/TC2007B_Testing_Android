@@ -19,7 +19,7 @@ class UserClassTest {
 
     @Test
     fun isChild() {
-        val user = UserClass("Julian", 15)
+        val user = UserClass("Julian", 11)
         assertTrue(user.isChild())
     }
 }
