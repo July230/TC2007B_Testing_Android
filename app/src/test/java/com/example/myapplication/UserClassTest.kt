@@ -13,7 +13,7 @@ class UserClassTest {
 
     @Test
     fun isTeenager() {
-        val user = UserClass("Julian", 15)
+        val user = UserClass("Julian", 14)
         assertTrue(user.isTeenager())
     }
 
